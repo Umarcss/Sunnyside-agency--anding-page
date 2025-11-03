@@ -113,13 +113,13 @@
   @media (max-width: 768px) {
     .testimonials-section {
       & .testimonials {
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
         row-gap: 7.5rem;
-        column-gap: 2.5rem;
-        justify-content: center;
 
         & .testimonial {
-          flex: 1 0 47.5%;
+          flex: 1 0 100%;
+          max-width: 100%;
 
           & .profile-image {
             margin-bottom: 2.75rem;
