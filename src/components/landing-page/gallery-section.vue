@@ -55,9 +55,15 @@
 <style lang="scss" scoped>
   .image-gallery {
     display: flex;
+    width: 100%;
+    overflow: hidden;
 
     & img {
-      width: 100%;
+      flex: 1 1 0;
+      width: 0;
+      height: auto;
+      object-fit: cover;
+      display: block;
     }
   }
 
@@ -67,6 +73,7 @@
 
       & img {
         flex: 1 1 50%;
+        width: auto;
       }
     }
   }
