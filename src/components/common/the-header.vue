@@ -98,7 +98,7 @@
           padding: 1.5rem 2.75rem;
           margin-left: 2rem;
           margin-right: 1rem;
-          background: var(--color-yellow);
+          background: var(--color-white);
 
           &:hover {
             background: rgba(255, 255, 255, 0.4);
