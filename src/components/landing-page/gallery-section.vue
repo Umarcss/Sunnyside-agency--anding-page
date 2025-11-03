@@ -72,8 +72,9 @@
       flex-wrap: wrap;
 
       & img {
-        flex: 1 1 50%;
-        width: auto;
+        flex: 0 0 50%;
+        width: 50%;
+        max-width: 50%;
       }
     }
   }
